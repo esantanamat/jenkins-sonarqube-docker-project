@@ -6,17 +6,17 @@ This project implements a CI/CD pipeline using Jenkins, SonarQube, and Docker to
 
 ## Technologies Used
 
-1. Jenkins – Automates the CI/CD pipeline
+1. **Jenkins** – Automates the CI/CD pipeline
 
-1. SonarQube – Code quality analysis
+1. **SonarQube** – Code quality analysis
 
-1. Docker – Containerization for application deployment
+1. **Docker** – Containerization for application deployment
 
-1. Terraform – Infrastructure as Code (IaC) for AWS provisioning
+1. **Terraform** – Infrastructure as Code (IaC) for AWS provisioning
 
-1. AWS EC2 – Virtual machines to run Jenkins, SonarQube, and other components
+1. **AWS EC2** – Virtual machines to run Jenkins, SonarQube, and other components
 
-1. Git – Version control for source code
+1. **Git** – Version control for source code
 
 ## Jenkins Pipeline Workflow
 
@@ -34,19 +34,19 @@ This project implements a CI/CD pipeline using Jenkins, SonarQube, and Docker to
 
 ## SonarQube Analysis
 
-Analyzes HTML, CSS, and Terraform (.tf) files for quality and security vulnerabilities.
+- Analyzes HTML, CSS, and Terraform (.tf) files for quality and security vulnerabilities.
 
-Additional checks can be configured in SonarQube as needed.
+- Additional checks can be configured in SonarQube as needed.
 
 Infrastructure Setup
 
 The project requires the following AWS setup:
 
-EC2 instances to run Jenkins, SonarQube, and other services.
+- EC2 instances to run Jenkins, SonarQube, and other services.
 
-SSH Keys to securely access VMs.
+- SSH Keys to securely access VMs.
 
-AWS SDK and CLI for managing AWS resources.
+- AWS SDK and CLI for managing AWS resources.
 
 Deployment Steps
 
@@ -86,7 +86,7 @@ Trigger the Jenkins pipeline with a commit.
 Ensure successful builds, SonarQube scans, and Docker deployments.   
 
 ## Future Improvements   
-Add more SonarQube rules for advanced security and quality checks.   
-Implement automated testing within the pipeline.   
-Deploy the application using Kubernetes instead of standalone Docker containers.   
-Introduce AWS CodePipeline for further automation and scalability.   
+- Add more SonarQube rules for advanced security and quality checks.   
+- Implement automated testing within the pipeline.   
+- Deploy the application using Kubernetes instead of standalone Docker containers.   
+- Introduce AWS CodePipeline for further automation and scalability.   
