@@ -64,26 +64,26 @@ Deployment Steps
   # Define pipeline stages in Jenkinsfile
   ```
 1. Provision AWS Resources  
-Use Terraform to create EC2 instances.  
-Configure security groups and networking.  
-Install and Configure Jenkins  
+- Use Terraform to create EC2 instances.  
+- Configure security groups and networking.  
+- Install and Configure Jenkins  
 
 1. Install Jenkins on an EC2 instance.
-Set up the necessary plugins (Git, Docker, SonarQube Scanner).  
+- Set up the necessary plugins (Git, Docker, SonarQube Scanner).  
 
 1. Set Up SonarQube
-Install SonarQube on another EC2 instance.  
-Configure Jenkins to connect to SonarQube for code analysis.   
+- Install SonarQube on another EC2 instance.  
+- Configure Jenkins to connect to SonarQube for code analysis.   
 
 1. Create and Configure the Jenkins Pipeline   
-Define the pipeline stages in Jenkinsfile.   
-Integrate Git, Docker, and SonarQube.
+- Define the pipeline stages in Jenkinsfile.   
+- Integrate Git, Docker, and SonarQube.
 
 1. Push Code to Git   
-Trigger the Jenkins pipeline with a commit.   
+- Trigger the Jenkins pipeline with a commit.   
 
 1. Monitor Pipeline Execution
-Ensure successful builds, SonarQube scans, and Docker deployments.   
+- Ensure successful builds, SonarQube scans, and Docker deployments.   
 
 ## Future Improvements   
 - Add more SonarQube rules for advanced security and quality checks.   
