@@ -14,7 +14,7 @@ This project implements a CI/CD pipeline using Jenkins, SonarQube, and Docker to
 
 1. Terraform – Infrastructure as Code (IaC) for AWS provisioning
 
-1 .AWS EC2 – Virtual machines to run Jenkins, SonarQube, and other components
+1. AWS EC2 – Virtual machines to run Jenkins, SonarQube, and other components
 
 1. Git – Version control for source code
 
@@ -26,7 +26,7 @@ This project implements a CI/CD pipeline using Jenkins, SonarQube, and Docker to
 
 1. Code Check – The pipeline verifies the code for errors and best practices.
 
-1.SonarQube Analysis – Runs SonarQube to analyze HTML, CSS, and Terraform (.tf) files.
+1. SonarQube Analysis – Runs SonarQube to analyze HTML, CSS, and Terraform (.tf) files.
 
 1. Docker Image Creation – If the code passes checks, it is packaged into a Docker image.
 
