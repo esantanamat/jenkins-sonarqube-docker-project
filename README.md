@@ -2,7 +2,8 @@
 
 ## Project Overview
 
-This project implements a CI/CD pipeline using Jenkins, SonarQube, and Docker to automate the software development lifecycle. The infrastructure is hosted on AWS EC2 instances, where virtual machines (VMs) are launched to support the pipeline.
+This project implements a CI/CD pipeline using Jenkins, SonarQube, and Docker to automate the software development lifecycle. The infrastructure is hosted on AWS EC2 instances, where virtual machines (VMs) are launched to support the pipeline.   
+Credit: I did not write the HTML/CSS code for the website, credit goes to https://www.free-css.com/free-css-templates :)
 
 ## Technologies Used
 
