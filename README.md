@@ -62,7 +62,7 @@ Deployment Steps
 
   # Configure Jenkins Pipeline
   # Define pipeline stages in Jenkinsfile
-
+  '''
 1. Provision AWS Resources  
 Use Terraform to create EC2 instances.  
 Configure security groups and networking.  
