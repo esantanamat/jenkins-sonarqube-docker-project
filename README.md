@@ -48,7 +48,7 @@ The project requires the following AWS setup:
 
 - AWS SDK and CLI for managing AWS resources.
 
-Deployment Steps
+### Deployment Steps
 
   ```
   # Provision AWS Resources
@@ -63,26 +63,26 @@ Deployment Steps
   # Configure Jenkins Pipeline
   # Define pipeline stages in Jenkinsfile
   ```
-1. Provision AWS Resources  
+1. **Provision AWS Resources**  
 - Use Terraform to create EC2 instances.  
 - Configure security groups and networking.  
 - Install and Configure Jenkins  
 
-2. Install Jenkins on an EC2 instance.
+2. **Install Jenkins on an EC2 instance.**
 - Set up the necessary plugins (Git, Docker, SonarQube Scanner).  
 
-3. Set Up SonarQube
+3. **Set Up SonarQube**
 - Install SonarQube on another EC2 instance.  
 - Configure Jenkins to connect to SonarQube for code analysis.   
 
-4. Create and Configure the Jenkins Pipeline   
+4. **Create and Configure the Jenkins Pipeline**   
 - Define the pipeline stages in Jenkinsfile.   
 - Integrate Git, Docker, and SonarQube.
 
-5. Push Code to Git   
+5. **Push Code to Git**   
 - Trigger the Jenkins pipeline with a commit.   
 
-6. Monitor Pipeline Execution
+6. **Monitor Pipeline Execution**
 - Ensure successful builds, SonarQube scans, and Docker deployments.   
 
 ## Future Improvements   
