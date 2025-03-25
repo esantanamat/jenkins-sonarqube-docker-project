@@ -5,6 +5,7 @@ terraform.tfvars
 *.tfstate
 *.tfstate.*
 *.tfvars
+terraform.tfstate
 
 *.swp
 .idea/
@@ -15,3 +16,6 @@ Thumbs.db
 *.key
 
 *:Zone.Identifier
+.gitignore
+my-key.pub
+my-private-key.pem
