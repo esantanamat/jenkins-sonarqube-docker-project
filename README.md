@@ -1,4 +1,4 @@
-### CI/CD Automated Pipeline
+# CI/CD Automated Pipeline
 
 ## Project Overview
 
@@ -20,7 +20,7 @@ This project implements a CI/CD pipeline using Jenkins, SonarQube, and Docker to
 
 ## Jenkins Pipeline Workflow
 
-# The Jenkins pipeline follows these steps:
+### The Jenkins pipeline follows these steps:
 
 1. Trigger on Git Push – The pipeline starts when a commit is pushed to the repository.
 
